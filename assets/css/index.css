@@ -1,17 +1,17 @@
 /* =============== Main Styles =============== */
 
-/* --------- Welcome Banner -------- */
-#welcome-banner {
+/* ------------- Header ------------ */
+header {
     background-image: url("../images/banners/green-snake.jpg");
     background-position: -2rem;
     background-size: cover;
     width: 100%;
-    height: 10rem;
+    height: 20rem;
 }
 
 /* -------------- Main ------------- */
 main {
-    height: 100rem;
+    height: 50rem;
 }
 
 /* ============== Media Queries ============== */
@@ -20,9 +20,9 @@ main {
 @media only screen and (min-width: 720px) {
     /* Welcome Banner */
 
-    #welcome-banner {
+    header {
         background-position: center;
-        height: 10rem;
+        height: 40rem;
     }
     
 }
