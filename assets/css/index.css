@@ -1,28 +1,19 @@
-/* =============== Main Styles =============== */
+/* ========== Index Styles ========= */
+@import "./global.css";
 
-/* ------------- Header ------------ */
-header {
-    background-image: url("../images/banners/green-snake.jpg");
-    background-position: -2rem;
-    background-size: cover;
+/* --------- Main -------- */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
     width: 100%;
     height: 20rem;
+    padding: 1rem;
 }
 
-/* -------------- Main ------------- */
-main {
-    height: 50rem;
-}
-
-/* ============== Media Queries ============== */
-
-/* Tablet */
-@media only screen and (min-width: 720px) {
-    /* Welcome Banner */
-
-    header {
-        background-position: center;
-        height: 40rem;
-    }
-    
-}

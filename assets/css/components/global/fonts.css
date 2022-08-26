@@ -1,0 +1,39 @@
+/* ========== Font Styles ========== */
+
+/* ------- Headers ------- */
+h1 {
+    font-family: 'Metal Mania', Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+h2 {
+    font-family: 'Montserrat', Impact, 'Arial Narrow Bold', sans-serif;
+    color: greenyellow;
+}
+
+
+/* ------ Paragraphs ----- */
+p {
+
+}
+
+
+/* --- Anchors / Lists --- */
+a, li {
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif ;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, li:hover {
+    -webkit-tap-highlight-color: transparent;
+    transform: scale(0.95);
+}
+
+a:active, li:active {
+    -webkit-tap-highlight-color: transparent;
+    transform: scale(0.95);
+}
+
+

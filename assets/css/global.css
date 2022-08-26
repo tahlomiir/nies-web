@@ -1,0 +1,20 @@
+/* ========= Global Styles ========= */
+
+/* --- Universal Style --- */
+@import "./components/global/universal.css";
+
+/* Fonts */
+@import "./components/global/fonts.css";
+
+
+/* ----- Top Of Page ----- */
+/* Navigation Menu */
+@import "./components/global/navbar.css";
+
+/* Header */
+@import "./components/global/header.css";
+
+
+/* ---- Bottom Of Page ---- */
+/* Footer */
+@import "./components/global/footer.css";

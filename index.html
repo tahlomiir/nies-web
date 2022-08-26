@@ -1,61 +1,108 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
     <!-- Meta -->
-    <meta charset="utf-8"/>
-    <meta name="Northern Ireland Exotics Sanctuary" content="Exotic Animal Sanctuary"/>
-    <meta url="www.niexoticsanctuary.com"/>
+    <meta charset="utf-8" />
+    <meta name="Northern Ireland Exotics Sanctuary" content="Exotic Animal Sanctuary" />
+    <meta url="www.niexoticsanctuary.com" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Assets -->
-    <link rel="stylesheet" href="assets/css/universal-styles.css"/>
-    <link rel="stylesheet" href="assets/css/index.css"/>
-    <script src="assets/js/universal-scripts.js"></script>
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <script src="/assets/js/global.js"></script>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada&family=Roboto&display=swap&family=Metal+Mania" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada&family=Roboto&display=swap&family=Metal+Mania" rel="stylesheet"/>
 
     <!-- Title -->
-    <title>NI Exotics | Welcome</title>
-    <link rel="icon" href="assets/images/icons/favicon.png" type="image/x-icon">
+    <title>NI Exotics | Home</title>
+    <link rel="icon" href="/assets/images/icons/favicon.png" type="image/x-icon">
     <!-- Favicon attribution - https://www.flaticon.com/free-icons/snake -->
-  </head>
+</head>
 
-  <body>
 
+<body>
+    <!------- Navigation Menu -------->
     <nav id="nav">
+        <!-- Logo -->
         <a href="index.html" class="nav-logo">
-          <img src="/assets/images/icons/logo.png" class="logo" id="header-logo"/>
-          <h1><b>NI</b> Exotics</h1>
+            <img src="/assets/images/icons/logo.png" class="logo" id="header-logo" />
+            <h1><b>NI</b> Exotics</h1>
         </a>
-      
-      <img src="/assets/images/icons/hamburger-menu-icon.svg" alt="hamburger menu" id="hamburger-icon" onclick="toggleNav()"/>
-      <img src="/assets/images/icons/close.svg" alt="close menu" id="close-icon" onclick="toggleNav()"/>
-      <ul id="dropdown-nav">
-        <a href="#home"><li class="nav-link">Home</li></a>
-        <a href="#adoption"></a><li class="nav-link">Adoption</li></a>
-        <a href="#about"></a><li class="nav-link">About</li></a>
-        <a href="#contact"></a><li class="nav-link">Contact</li></a>
-      </ul>
+
+        <!-- Hamburger Menu -->
+        <img src="/assets/images/icons/hamburger-menu-icon.svg" alt="hamburger menu" id="hamburger-icon" onclick="toggleNav()" />
+        <img src="/assets/images/icons/close.svg" alt="close menu" id="close-icon" onclick="toggleNav()" />
+        <ul id="dropdown-nav">
+            <a href="#home">
+                <li class="nav-link" onclick="toggleNav()">Home</li>
+            </a>
+            <a href="#adoption">
+                <li class="nav-link" onclick="toggleNav()">Adoption</li>
+            </a>
+            <a href="#residents">
+                <li class="nav-link" onclick="toggleNav()">Residents</li>
+            </a>
+            <a href="#about">
+                <li class="nav-link" onclick="toggleNav()">About</li>
+            </a>
+            <a href="#contact">
+                <li class="nav-link" onclick="toggleNav()">Contact</li>
+            </a>
+        </ul>
     </nav>
 
-    <!-- Header -->
-    <header>
-      
+
+    <!------------ Header ------------>
+    <header id="home">
+
     </header>
 
-    <!-- Main -->
+
+    <!------------- Main ------------->
     <main>
+
+        <!-- Welcome -->
+        <section id="welcome">
+            <h2>Welcome</h2>
+        </section>
+
+        <!-- Adoption -->
+        <section id="adoption">
+            <h2>Adoption</h2>
+        </section>
+
+        <!-- Residents -->
+        <section id="residents">
+            <h2>Residents</h2>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <h2>About</h2>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+        </section>
     </main>
 
-    <!-- Footer -->
+
+    <!------------ Footer ------------>
     <footer>
-      <a href="index.html"><img src="/assets/images/icons/logo.png" class="logo" id="footer-logo"/></a>
+        <!-- Logo -->
+        <a href="/index.html"><img src="/assets/images/icons/logo.png" class="logo" id="footer-logo" /></a>
+
+        <!-- Copyright -->
+        <p>Copyright © 2022 NIES</p>
     </footer>
 
-  </body>   
+</body>
+
 </html>

@@ -1,55 +1,7 @@
-/* ============= Universal Styles ============ */
-* {
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    /* border: 1px solid red; */
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    scroll-behavior: smooth;
-    font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, sans-serif;
-    font-size: 16px;   
-}
-
-body {
-    background: rgb(50, 50, 50);
-    color: white;
-    width: 100%;
-}
-
-/* ---------- Font Styles ---------- */
-h1 {
-    font-family: 'Metal Mania', Impact, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.5rem;
-    margin-left: 0.5rem;
-}
-
-/* Anchors */
-a, li {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover, li:hover {
-    color: greenyellow;
-}
-
-a:active, li:active {
-    -webkit-tap-highlight-color: transparent;
-    transform: scale(0.95);
-}
-
-/* Bold */
-b {
-    color: greenyellow;
-}
-
-/* ============== Content Styles ============= */
 /* -------- Navigation Menu -------- */
 nav {
+    position: fixed;
+    top: 0;
     background-color: black;
     display: flex;
     align-items: center;
@@ -59,20 +11,21 @@ nav {
 }
 
 /* Logo */
-
 .nav-logo {
     display: flex;
     align-items: center;
+}
 
+/* ---- Strong / Bold ---- */
+.nav-logo b {
+    color: greenyellow;
 }
 
 .logo {
-
     background-color: black;
     border-radius: 100%;
     width: 3.5rem;
-    height: 3.5rem;
-    margin: 0.5rem ;
+    margin: 0 0.5rem ;
 }
 
 .logo:hover {
@@ -105,38 +58,42 @@ nav {
 }
 
 #hamburger-icon:active, #close-icon:active {
+    -webkit-tap-highlight-color: transparent;
     transform: scale(1);
 }
-
 
 /* Nav Links */
 #dropdown-nav {
     display: none;
-    position: absolute;
-    top: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 3.9rem;
     background-color: black;
     list-style: none;
     width: 100%;
 }
 
+#dropdown-nav a, #dropdown-nav li {
+    width: 100%;
+    text-align: center;
+}
+
+#dropdown-nav a:hover, #dropdown-nav li:hover {
+    background-color: greenyellow;
+    color: black;
+    font-weight: 700;
+    transform: scale(1.05);
+}
+
 .nav-link {
     font-size: 1.25rem;
     padding: 1rem;
-}
-
-
-
-
-/* -------- Footer ------- */
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: greenyellow;
-    height: 4.5rem;
     width: 100%;
 }
 
+.navlink:hover {
+    background-color: greenyellow;
+    transform: scale(0.95);
+}
