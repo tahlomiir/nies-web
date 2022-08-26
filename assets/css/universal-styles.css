@@ -1,0 +1,106 @@
+/* ============= Universal Styles ============ */
+* {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+}
+
+body {
+    background: rgb(50, 50, 50);
+    color: white;
+    width: 100%;
+}
+
+/* ---------- Font Styles ---------- */
+h1 {
+    font-family: 'Metal Mania', Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+}
+
+/* Anchors */
+a, li {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, li:hover {
+    color: greenyellow;
+}
+
+a:active, li:active {
+    -webkit-tap-highlight-color: transparent;
+    transform: scale(0.95);
+}
+
+/* Bold */
+b {
+    color: greenyellow;
+}
+
+/* ============== Content Styles ============= */
+
+/* -------- Navigation Menu -------- */
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 5rem;
+}
+
+/* Hamburger Icon */
+#hamburger-icon, #close-icon {
+    z-index: 20;
+    background-color: greenyellow;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+#hamburger-icon {
+    display: block;
+}
+
+#close-icon {
+    display: none;
+}
+
+#hamburger-icon:hover, #close-icon:hover {
+    background-color: white;
+    filter: invert();
+    transform: scale(1.1);
+}
+
+#hamburger-icon:active, #close-icon:active {
+    transform: scale(1);
+}
+
+
+/* Nav Links */
+#dropdown-nav {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    padding: 1rem;
+}
