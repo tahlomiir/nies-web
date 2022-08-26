@@ -9,20 +9,23 @@ footer {
     height: 4.5rem;
 }
 
-footer p {
+footer strong {
     padding: 0.5rem;
+}
+
+#footer-logo {
+    margin-bottom: -0.25rem;
 }
 
 /* ========= Media Queries ========= */
 
 /* ------- Tablet ------- */
 @media only screen and (min-width: 768px) {
-
-    /* Header */
     footer {
         height: 3rem;
     }
 
+    /* Logo */
     #footer-logo {
         width: 2rem;
     }
@@ -30,9 +33,12 @@ footer p {
 
 /* ------- Laptop ------- */
 @media only screen and (min-width: 1024px) {
-
-    /* Header */
     footer {
-        height: 4.5rem;
+        height: 3rem;
+    }
+
+    /* Logo */
+    #footer-logo {
+        width: 2.5rem;
     }
 }
