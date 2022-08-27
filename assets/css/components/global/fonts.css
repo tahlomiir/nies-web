@@ -8,10 +8,19 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', Impact, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat Subrayada', Verdana, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     color: greenyellow;
+}
+
+h3 {
+    font-family: 'Montserrat', Verdana, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 0.25rem;
+    text-align: center;
+    margin: 0.5rem;
 }
 
 h4 {
@@ -43,6 +52,11 @@ a:active, li:active {
     transform: scale(0.95);
 }
 
+/* ---- Strong / Bold ---- */
+b, strong {
+    color: greenyellow;
+}
+
 
 /* ========= Media Queries ========= */
 
@@ -72,9 +86,4 @@ a:active, li:active {
     h4 {
         font-size: 1.5rem;
     }
-
-    p {
-        font-size: 1.1rem;
-    }
-
 }

@@ -8,17 +8,13 @@ nav {
     justify-content: space-between;
     width: 100%;
     height: 4rem;
+    transition: top 0.2s;
 }
 
 /* Logo */
 .nav-logo {
     display: flex;
     align-items: center;
-}
-
-/* ---- Strong / Bold ---- */
-.nav-logo b {
-    color: greenyellow;
 }
 
 .logo {

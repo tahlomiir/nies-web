@@ -1,6 +1,14 @@
 /* ========== Index Styles ========= */
 @import "./global.css";
 
+/* -------- Header ------- */
+header {
+    background-image: url("/assets/images/banners/green-snake.jpg");
+    background-position: -2rem;
+    box-shadow: inset 0px 0px 40px 40px black;
+}
+
+
 /* --------- Main -------- */
 main {
     display: flex;
@@ -10,9 +18,39 @@ main {
     width: 100%;
 }
 
+
+/* ------- Sections ------ */
 section {    
     width: 100%;
     height: 20rem;
     padding: 1rem;
 }
 
+/* Welcome */
+#welcome {
+    background-color: black;
+    height: auto;
+}
+
+#motto-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/images/banners/black-monstera-leaves-background-wallpaper.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+}
+
+
+/* ========= Media Queries ========= */
+
+/* ------- Tablet ------- */
+@media only screen and (min-width: 768px) {
+
+    /* Section */
+    section {
+        padding: 2rem;
+    }
+
+}
