@@ -1,95 +1,90 @@
 /* -------- Navigation Menu -------- */
 nav {
-    position: fixed;
-    top: 0;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 4rem;
-    transition: top 0.2s;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+  transition: top 0.2s;
 }
 
 /* Logo */
 .nav-logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    background-color: black;
-    border-radius: 100%;
-    width: 3.5rem;
-    margin: 0 0.5rem;
-}
-
-.logo:hover {
-    transform: scale(0.95);
+  display: flex;
+  align-items: center;
 }
 
 /* Hamburger Icon */
-#hamburger-icon, #close-icon {
-    z-index: 10;
-    background-color: greenyellow;
-    border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    padding: 0.5rem;
-    margin: 0.5rem 1rem;
+#hamburger-icon,
+#close-icon {
+  z-index: 10;
+  background-color: greenyellow;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
 }
 
 #hamburger-icon {
-    display: block;
+  display: block;
 }
 
 #close-icon {
-    display: none;
+  display: none;
 }
 
-#hamburger-icon:hover, #close-icon:hover {
-    background-color: white;
-    filter: invert();
-    transform: scale(1.1);
+#hamburger-icon:hover,
+#close-icon:hover {
+  background-color: white;
+  filter: invert();
+  transform: scale(1.1);
 }
 
-#hamburger-icon:active, #close-icon:active {
-    -webkit-tap-highlight-color: transparent;
-    transform: scale(1);
+#hamburger-icon:active,
+#close-icon:active {
+  -webkit-tap-highlight-color: transparent;
+  transform: scale(1);
+}
+
+/* Dropdown Menu */
+#dropdown-nav {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3.9rem;
+  background-color: black;
+  list-style: none;
+  width: 100%;
+}
+
+#dropdown-nav a,
+#dropdown-nav li {
+  width: 100%;
+  text-align: center;
+}
+
+#dropdown-nav a:hover,
+#dropdown-nav li:hover {
+  background-color: greenyellow;
+  color: black;
+  font-weight: 700;
+  transform: scale(1.05);
 }
 
 /* Nav Links */
-#dropdown-nav {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 3.9rem;
-    background-color: black;
-    list-style: none;
-    width: 100%;
-}
-
-#dropdown-nav a, #dropdown-nav li {
-    width: 100%;
-    text-align: center;
-}
-
-#dropdown-nav a:hover, #dropdown-nav li:hover {
-    background-color: greenyellow;
-    color: black;
-    font-weight: 700;
-    transform: scale(1.05);
-}
-
 .nav-link {
-    font-size: 1.25rem;
-    padding: 1rem;
-    width: 100%;
+  font-size: 1.25rem;
+  padding: 1rem;
+  width: 100%;
 }
 
 .navlink:hover {
-    background-color: greenyellow;
-    transform: scale(0.95);
+  background-color: greenyellow;
+  transform: scale(0.95);
 }

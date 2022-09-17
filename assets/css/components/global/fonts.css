@@ -1,89 +1,75 @@
 /* ========== Font Styles ========== */
-
 /* ------- Headers ------- */
 h1 {
-    font-family: 'Metal Mania', Impact, 'Arial Narrow Bold', sans-serif;
-    font-size: 2rem;
-    margin-left: 0.5rem;
+  font-family: "Metal Mania", Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  margin-left: 0.5rem;
 }
 
 h2 {
-    font-family: 'Montserrat Subrayada', Verdana, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    color: greenyellow;
+  font-family: "Montserrat", Verdana, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  color: greenyellow;
+  margin: 1rem;
 }
 
 h3 {
-    font-family: 'Montserrat', Verdana, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 100;
-    letter-spacing: 0.25rem;
-    text-align: center;
-    margin: 0.5rem;
+  font-family: "Montserrat", Verdana, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: 0.25rem;
+  text-align: center;
+  margin: 1rem;
 }
-
-h4 {
-    font-size: 1.1rem;
-    text-align: justify;
-}
-
 
 /* ------ Paragraphs ----- */
 p {
-    text-align: justify;
-}
-
-
-/* --- Anchors / Lists --- */
-a, li {
-    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif ;
-    text-decoration: none;
-    color: white;
-}
-
-a:hover, li:hover {
-    -webkit-tap-highlight-color: transparent;
-    transform: scale(0.95);
-}
-
-a:active, li:active {
-    -webkit-tap-highlight-color: transparent;
-    transform: scale(0.95);
+  text-align: justify;
+  margin: 1rem;
 }
 
 /* ---- Strong / Bold ---- */
-b, strong {
-    color: greenyellow;
+b {
+  color: greenyellow;
 }
 
+/* =========== Hyperlinks ========== */
+/* --- Anchors / Lists --- */
+a,
+li {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+li:hover {
+  -webkit-tap-highlight-color: transparent;
+  transform: scale(0.95);
+}
+
+a:active,
+li:active {
+  -webkit-tap-highlight-color: transparent;
+  transform: scale(0.95);
+}
 
 /* ========= Media Queries ========= */
-
 /* ------- Tablet ------- */
 @media only screen and (min-width: 768px) {
-
-    /* Headers */
-    h2 {
-        font-size: 2.25rem;
-    }
-
-    h4 {
-        font-size: 1.125rem;
-        text-align: center;
-    }
-
+  /* Headers */
+  h2 {
+    font-size: 2.25rem;
+  }
 }
 
 /* ------- Laptop ------- */
 @media only screen and (min-width: 1024px) {
+}
 
-    /* Headers */
-    h2 {
-        font-size: 2.25rem;
-    }
-
-    h4 {
-        font-size: 1.5rem;
-    }
+/* ------- Desktop ------- */
+@media only screen and (min-width: 1440px) {
 }
