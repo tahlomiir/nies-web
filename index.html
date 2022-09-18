@@ -35,7 +35,7 @@
 
   <body>
     <!------- Navigation Menu -------->
-    <nav id="navbar">
+    <nav class="flex-row" id="navbar">
       <!-- Logo -->
       <a href="index.html" class="nav-logo">
         <img
@@ -79,46 +79,54 @@
     </nav>
 
     <!------------ Header ------------>
-    <header id="home"></header>
+    <header class="banner" id="home"></header>
 
     <!------------- Main ------------->
     <main>
       <!-- Welcome -->
-      <section id="welcome">
-        <h2>Welcome</h2>
-        <p>
-          <strong>
-            Welcome to Northern Ireland Exotics Sanctuary, home to exotic
-            creatures big and small!
-          </strong>
-        </p>
-        <p>
-          Here at NI Exotics, we are passionate about the rescue and welfare of
-          reptiles and other exotic creatures. <br /><br />
-          On this site, you will find plenty of information on how to adopt and
-          care for an exotic animal, and more about the permanent residents of
-          the sanctuary.
-        </p>
+      <section class="flex-col split-grid" id="welcome-section">
+        <div class="flex-col split-div" id="welcome-image"></div>
+        <div class="flex-col split-div" id="welcome-text">
+          <h2>About Us</h2>
+          <p>
+            <strong>
+              Welcome to Northern Ireland Exotics Sanctuary, home to exotic
+              creatures big and small!
+            </strong>
+          </p>
+          <p>
+            A small, volunteer-run animal shelter based in Portrush, we are
+            passionate about the rescue and welfare of reptiles and other exotic
+            creatures.
+            <br /><br />
+            On this site, you will find plenty of information on how to adopt
+            and care for an exotic animal, and more about the permanent
+            residents of the sanctuary.
+          </p>
+        </div>
       </section>
 
       <!-- Adoption -->
-      <section id="adoption">
+      <section class="flex-col" id="adoption-sect">
         <h2>Adoption</h2>
       </section>
 
       <!-- Residents -->
-      <section id="residents">
+      <section class="flex-col" id="residents-sect">
         <h2>Residents</h2>
       </section>
 
       <!-- About -->
-      <section id="about">
+      <section class="flex-col" id="about-sect">
         <h2>About</h2>
       </section>
 
       <!-- Contact -->
-      <section id="contact">
-        <h2>Contact</h2>
+      <section class="flex-col" id="contact-sect">
+        <h2>Contact Us</h2>
+
+        <div class="banner" id="follow-cont"></div>
+        <!-- Follow Us -->
       </section>
     </main>
 
