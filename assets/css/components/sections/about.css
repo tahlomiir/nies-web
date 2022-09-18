@@ -1,1 +1,14 @@
 /* ============= About Us Styles ============= */
+
+/* ========= Media Queries ========= */
+/* ------- Tablet -------- */
+@media only screen and (min-width: 768px) {
+}
+
+/* ------- Laptop -------- */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ------- Desktop ------- */
+@media only screen and (min-width: 1440px) {
+}

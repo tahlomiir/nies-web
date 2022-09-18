@@ -1,6 +1,7 @@
 /* ============== Header Styles ============== */
 header {
-  height: 20rem;
+  background-image: url("/assets/images/banners/iguana.jpg");
+  height: 15rem;
 }
 
 /* ========= Media Queries ========= */
@@ -14,6 +15,13 @@ header {
 /* ------- Laptop ------- */
 @media only screen and (min-width: 1024px) {
   header {
-    height: 40rem;
+    height: 46rem;
+  }
+}
+
+/* ------- Desktop ------- */
+@media only screen and (min-width: 1440px) {
+  header {
+    height: 46rem;
   }
 }

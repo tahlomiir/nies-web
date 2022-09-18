@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+#full-title {
+  display: none;
+}
+
 /* ---- Hamburger Icon --- */
 #hamburger-icon,
 #close-icon {
@@ -88,4 +92,25 @@
 .navlink:hover {
   background-color: greenyellow;
   transform: scale(0.95);
+}
+
+/* ========= Media Queries ========= */
+/* ------- Tablet -------- */
+@media only screen and (min-width: 768px) {
+  /* Logo */
+  #mobile-title {
+    display: none;
+  }
+
+  #full-title {
+    display: block;
+  }
+}
+
+/* ------- Laptop -------- */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ------- Desktop ------- */
+@media only screen and (min-width: 1440px) {
 }

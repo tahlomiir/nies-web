@@ -20,12 +20,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat&family=Oswald&family=Roboto&display=swap"
       rel="stylesheet"
     />
 
     <!-- Title -->
-    <title>NI Exotics | Home</title>
+    <title>NI Exotic Sanctuary</title>
     <link
       rel="icon"
       href="/assets/images/icons/favicon/favicon.ico"
@@ -43,7 +43,8 @@
           class="logo"
           id="header-logo"
         />
-        <h1><b>NI</b> Exotics</h1>
+        <h1 id="mobile-title"><b>NI</b> Exotics</h1>
+        <h1 id="full-title"><b>NI</b> Exotic Sanctuary</h1>
       </a>
 
       <!-- Hamburger Menu -->
@@ -79,7 +80,7 @@
     </nav>
 
     <!------------ Header ------------>
-    <header class="banner" id="home"></header>
+    <header class="banner background-img" id="home"></header>
 
     <!------------- Main ------------->
     <main>
@@ -87,7 +88,7 @@
       <section class="flex-col split-grid" id="welcome-section">
         <div class="flex-col split-div" id="welcome-image"></div>
         <div class="flex-col split-div" id="welcome-text">
-          <h2>About Us</h2>
+          <h2>Welcome</h2>
           <p>
             <strong>
               Welcome to Northern Ireland Exotics Sanctuary, home to exotic
@@ -118,20 +119,35 @@
 
       <!-- About -->
       <section class="flex-col" id="about-sect">
-        <h2>About NIES</h2>
+        <h2>About Us</h2>
       </section>
 
       <!-- Contact -->
       <section class="flex-col" id="contact-sect">
-        <h2>Contact Us</h2>
+        <h2>Contact</h2>
 
-        <div class="banner" id="follow-cont"></div>
         <!-- Follow Us -->
+        <div class="banner background-img flex-col" id="follow-cont">
+          <h3>Follow Us!</h3>
+          <p>
+            Did you know you can find us on social media too? We'd love to hear from you! 
+          </p>
+          <small>
+            Please consider giving us a like and follow! After all, sharing is
+            caring &#128154
+          </small>
+          <ul class="flex-row" id="social-media">
+            <li class="flex-row background-img social-icon" id="facebook"><a class="social-link" href="https://www.facebook.com/NIReptileSanctuary"></a></li>
+            <li class="flex-row background-img social-icon" id="instagram"><a class="social-link" href="https://www.instagram.com/niexoticsanctuary"></a></li>
+            <li class="flex-row background-img social-icon" id="tiktok"><a class="social-link" href="https://www.tiktok.com/niexoticsanctuary"></a></li>
+            <li class="flex-row background-img social-icon" id="linkedin"><a class="social-link" href="https://www.linkedin.com/in/northern-ireland-exotics-sanctuary-138704232"></a></li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!------------ Footer ------------>
-    <footer>
+    <footer class="flex-row">
       <p>Copyright © 2022 NIES</p>
     </footer>
   </body>
