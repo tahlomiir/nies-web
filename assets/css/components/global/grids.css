@@ -1,0 +1,44 @@
+/* ================ Grid Styles ============== */
+/* --------- Flexible Grids -------- */
+.flex-row,
+.flex-col {
+  display: flex;
+  width: 100%;
+}
+
+.flex-row {
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- Responsive Grids -- */
+/* Split Grid 2x1 */
+.split-div {
+  width: 100%;
+}
+
+/* ========= Media Queries ========= */
+/* ------- Tablet -------- */
+@media only screen and (min-width: 768px) {
+  /* --- Responsive Grids -- */
+  /* 2x1 Grid */
+  .split-grid {
+    flex-direction: row;
+  }
+
+  .split-div {
+    width: 50%;
+  }
+}
+
+/* ------- Laptop -------- */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ------- Desktop ------- */
+@media only screen and (min-width: 1440px) {
+}
