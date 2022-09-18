@@ -18,6 +18,7 @@
 /* --- Responsive Grids -- */
 /* Split Grid 2x1 */
 .split-div {
+  padding: 1rem;
   width: 100%;
 }
 
@@ -31,14 +32,25 @@
   }
 
   .split-div {
+    padding: 3rem;
     width: 50%;
   }
 }
 
 /* ------- Laptop -------- */
 @media only screen and (min-width: 1024px) {
+  .split-div {
+    padding: 3rem 6rem;
+  }
 }
 
 /* ------- Desktop ------- */
 @media only screen and (min-width: 1440px) {
+}
+
+/* ----- 4k Ultra HD ----- */
+@media only screen and (min-width: 2560px) {
+  .split-div {
+    padding: 3rem;
+  }
 }
