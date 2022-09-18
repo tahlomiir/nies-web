@@ -31,6 +31,7 @@
   }
 
   .split-div {
+    padding: 3rem;
     width: 50%;
   }
 }
