@@ -14,10 +14,7 @@
 .nav-logo {
   display: flex;
   align-items: center;
-}
-
-#full-title {
-  display: none;
+  max-width: 14rem;
 }
 
 /* ---- Hamburger Icon --- */
@@ -97,14 +94,6 @@
 /* ========= Media Queries ========= */
 /* ------- Tablet -------- */
 @media only screen and (min-width: 768px) {
-  /* Logo */
-  #mobile-title {
-    display: none;
-  }
-
-  #full-title {
-    display: block;
-  }
 }
 
 /* ------- Laptop -------- */

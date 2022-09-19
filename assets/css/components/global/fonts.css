@@ -1,9 +1,10 @@
 /* ========== Font Styles ========== */
 /* ------- Headers ------- */
 h1 {
-  font-family: "Metal Mania", Impact, "Arial Narrow Bold", sans-serif;
-  font-size: 2rem;
-  margin-left: 0.5rem;
+  font-family: "League Spartan", Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -36,11 +37,6 @@ p {
 small {
   text-align: center;
   margin: 1rem;
-}
-
-/* ---- Strong / Bold ---- */
-b {
-  color: greenyellow;
 }
 
 /* =========== Hyperlinks ========== */
