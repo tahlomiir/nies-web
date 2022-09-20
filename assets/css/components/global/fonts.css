@@ -1,49 +1,80 @@
 /* ========== Font Styles ========== */
 /* ------- Headers ------- */
-h1 {
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
   font-family: "League Spartan", Impact, "Arial Narrow Bold", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  letter-spacing: 0.125rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+h3,
+h4 {
+  font-family: "Oswald", Verdana, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
   font-size: 1.125rem;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 h2 {
-  font-family: "Montserrat", Verdana, "Arial Narrow Bold", sans-serif;
-  font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.125rem;
-  text-align: center;
-  color: greenyellow;
-  margin: 1rem;
+  font-size: 2.75rem;
+  font-weight: 100;
 }
 
 h3 {
-  font-family: "Oswald", Verdana, "Arial Narrow Bold", sans-serif;
-  text-transform: uppercase;
+  font-size: 2rem;
+  color: greenyellow;
+}
+
+h4 {
   font-size: 2.5rem;
-  font-weight: 500;
-  letter-spacing: 0.125rem;
-  text-align: center;
-  margin: 1rem;
 }
 
 /* ------ Paragraphs ----- */
-p {
-  text-align: justify;
+p,
+small {
   margin: 1rem;
 }
 
-/* Small */
+p {
+  text-align: justify;
+}
+
 small {
   text-align: center;
-  margin: 1rem;
+}
+
+/* ---- Bold / Strong ---- */
+
+b {
+  text-align: center;
+}
+
+strong {
+  color: greenyellow;
 }
 
 /* =========== Hyperlinks ========== */
 /* --- Anchors / Lists --- */
 a,
 li {
-  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
   text-decoration: none;
   color: white;
 }
@@ -70,17 +101,41 @@ ul {
 @media only screen and (min-width: 768px) {
   /* Headers */
   h2 {
+    font-size: 4.5rem;
+    margin: 2rem;
+  }
+
+  h3 {
     font-size: 2.25rem;
   }
 }
 
 /* ------- Laptop ------- */
 @media only screen and (min-width: 1024px) {
+  /* Headers */
+  h2 {
+    font-size: 6rem;
+  }
+
   h3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
 /* ------- Desktop ------- */
 @media only screen and (min-width: 1440px) {
+  /* Headers */
+  h2 {
+    font-size: 7rem;
+    margin: 3rem;
+  }
+}
+
+/* ----- 4k Ultra HD ----- */
+@media only screen and (min-width: 2560px) {
+  /* Headers */
+  h2 {
+    font-size: 12rem;
+    margin: 4rem;
+  }
 }

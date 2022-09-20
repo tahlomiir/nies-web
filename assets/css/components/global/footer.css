@@ -1,6 +1,6 @@
 /* ================= Footer ================== */
 footer {
-  background-color: rgb(35, 35, 35);
+  background-color: black;
   color: white;
   width: 100%;
 }
@@ -20,4 +20,8 @@ footer p {
 
 /* ------- Desktop ------- */
 @media only screen and (min-width: 1440px) {
+}
+
+/* ----- 4k Ultra HD ----- */
+@media only screen and (min-width: 2560px) {
 }

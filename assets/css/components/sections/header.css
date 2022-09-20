@@ -1,27 +1,51 @@
 /* ============== Header Styles ============== */
 header {
-  background-image: url("/assets/images/banners/iguana.jpg");
-  height: 15rem;
+  background-image: url("/assets/images/banners/green-tree-snake.jpg");
+  margin-top: 4rem;
+  height: 30rem;
+  align-items: flex-end;
+}
+
+#slogan {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  max-width: 15rem;
 }
 
 /* ========= Media Queries ========= */
 /* ------- Tablet ------- */
 @media only screen and (min-width: 768px) {
-  header {
-    height: 30rem;
+  #slogan {
+    max-width: 20rem;
   }
 }
 
 /* ------- Laptop ------- */
 @media only screen and (min-width: 1024px) {
-  header {
-    height: 46rem;
+  #slogan {
+    max-width: 25rem;
   }
 }
 
 /* ------- Desktop ------- */
 @media only screen and (min-width: 1440px) {
   header {
-    height: 46rem;
+    height: 40rem;
+  }
+
+  #slogan {
+    max-width: 30rem;
+  }
+}
+
+/* ----- 4k Ultra HD ----- */
+@media only screen and (min-width: 2560px) {
+  header {
+    height: 70rem;
+  }
+
+  #slogan {
+    max-width: 45rem;
   }
 }
