@@ -11,6 +11,12 @@
   transition: top 0.2s;
 }
 
+/* Top Of Page */
+#home {
+  background-color: black;
+  height: 4rem;
+}
+
 /* --------- Logo -------- */
 .nav-logo-cont {
   display: flex;
@@ -95,6 +101,9 @@
 /* ========= Media Queries ========= */
 /* ------- Tablet -------- */
 @media only screen and (min-width: 768px) {
+  .nav-logo-cont {
+    max-width: none;
+  }
 }
 
 /* ------- Laptop -------- */

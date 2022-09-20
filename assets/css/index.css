@@ -2,21 +2,21 @@
 /* -------- Global ------- */
 @import "./global.css";
 
-/* -------- Header ------- */
-@import "./components/sections/header.css";
-
 /* ------- Sections ------ */
 /* Welcome */
-@import "./components/sections/welcome.css";
+@import "./index/welcome.css";
 
 /* Adoption */
-@import "./components/sections/adoption.css";
+@import "./index/adoption.css";
 
 /* Residents */
-@import "./components/sections/residents.css";
+@import "./index/residents.css";
 
-/* About Us */
-@import "./components/sections/about.css";
+/* About */
+@import "./index/about.css";
 
-/* Contact Us */
-@import "./components/sections/contact.css";
+/* Contact */
+@import "./index/contact.css";
+
+/* Follow */
+@import "./index/follow.css";

@@ -1,15 +1,14 @@
 /* ============== Header Styles ============== */
 header {
+  position: relative;
+  background-color: black;
   background-image: url("/assets/images/banners/green-tree-snake.jpg");
-  margin-top: 4rem;
-  height: 30rem;
-  align-items: flex-end;
+  height: 40rem;
 }
 
 #slogan {
   position: absolute;
   right: 0;
-  text-align: right;
   max-width: 15rem;
 }
 
@@ -23,16 +22,19 @@ header {
 
 /* ------- Laptop ------- */
 @media only screen and (min-width: 1024px) {
+  header {
+    height: 45rem;
+  }
+
   #slogan {
     max-width: 25rem;
+    margin-right: 2rem;
   }
 }
 
 /* ------- Desktop ------- */
 @media only screen and (min-width: 1440px) {
-  header {
-    height: 40rem;
-  }
+
 
   #slogan {
     max-width: 30rem;
@@ -47,5 +49,6 @@ header {
 
   #slogan {
     max-width: 45rem;
+    margin-right: 10rem;
   }
 }

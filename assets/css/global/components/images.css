@@ -1,0 +1,39 @@
+/* =============== Image Styles ============== */
+/* ------------- Logos ------------- */
+.logo {
+  height: 3.5rem;
+}
+
+/* ------------ Banners ------------ */
+.banner {
+  width: 100%;
+}
+
+/* Background Images */
+.background-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ------------ Stickers ----------- */
+.sticker {
+  margin: 0;
+}
+
+/* ========= Media Queries ========= */
+/* ------- Tablet -------- */
+@media only screen and (min-width: 768px) {
+}
+
+/* ------- Laptop -------- */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ------- Desktop ------- */
+@media only screen and (min-width: 1440px) {
+}
+
+/* ----- 4k Ultra HD ----- */
+@media only screen and (min-width: 2560px) {
+}

@@ -14,7 +14,7 @@
 
     <!-- Assets -->
     <link rel="stylesheet" href="/assets/css/index.css" />
-    <script src="/assets/js/components/global/navbar.js"></script>
+    <script src="/assets/js/global/content/navbar.js"></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -63,47 +63,69 @@
         <a href="#home">
           <li class="nav-link" onclick="toggleNav()">Home</li>
         </a>
-        <a href="#adoption">
+        <a href="#welcome-sect">
+          <li class="nav-link" onclick="toggleNav()">Welcome</li>
+        </a>
+        <a href="#adoption-sect">
           <li class="nav-link" onclick="toggleNav()">Adoption</li>
         </a>
-        <a href="#residents">
+        <a href="#residents-sect">
           <li class="nav-link" onclick="toggleNav()">Residents</li>
         </a>
-        <a href="#about">
+        <a href="#about-sect">
           <li class="nav-link" onclick="toggleNav()">About</li>
         </a>
-        <a href="#contact">
+        <a href="#contact-sect">
           <li class="nav-link" onclick="toggleNav()">Contact</li>
         </a>
       </ul>
     </nav>
 
+    <!-- Home -->
+    <div id="home"></div>
+
     <!------------ Header ------------>
-    <header class="background-img" id="home">
-      <h2 id="slogan">Rescue Revive <strong>Rehome</strong></h2>
+    <header class="background-img" id="header">
+      <div class="flex-col" id="slogan">      
+        <h2>Rescue Revive <strong>Rehome</strong></h2>
+        <a href="#welcome-sect" onclick="showMain()">
+          <button class="green-btn" id="header-btn">Find Out More</button>
+        </a>
+      </div>
     </header>
 
     <!------------- Main ------------->
     <main>
       <!-- Welcome -->
-      <section class="flex-col split-grid" id="welcome-section">
-        <div class="flex-col split-div" id="welcome-image"></div>
+      <section class="flex-col split-grid" id="welcome-sect">
+        <div class="flex-col split-div" id="welcome-image">
+          <img
+          src="/assets/images/stickers/dont-shop-adopt.png"
+          alt="A round sticker with the words 'Don't Shop, Adopt' curved along 
+          the bottom.  A snake eating its tail is shown, and within its circular 
+          body there is a crystal along with stars and some plants.  Outside the 
+          snake is embellished with more plant branches and some small stars."
+          class="sticker"
+          id="dont-shop-adopt"
+          onclick="toggleNav()"
+        />
+        </div>
         <div class="flex-col split-div" id="welcome-text">
           <h3>Welcome</h3>
           <p>
             <b>
-              Welcome to Northern Ireland Exotics Sanctuary, home to exotic
-              creatures big and small!
+              Welcome to the Northern Ireland Exotic Sanctuary, an upcoming charity
+              for the rescue and welfare of exotic animals.
             </b>
           </p>
           <p>
-            A small, volunteer-run animal shelter based in Portrush, we are
-            passionate about the rescue and welfare of reptiles and other exotic
-            creatures.
+            NIES is a small, volunteer-run animal shelter based in Portrush.
+            We are passionate about the rescue and welfare of reptiles and 
+            other exotic creatures. 
             <br /><br />
-            On this site, you will find plenty of information on how to adopt
-            and care for an exotic animal, and more about the permanent
-            residents of the sanctuary.
+            On this site, you will find plenty of information on what types of 
+            exotic animals we take in, all pets currently up for adoption, and 
+            more about the permanent residents of the sanctuary.
           </p>
         </div>
       </section>
@@ -126,24 +148,24 @@
       <!-- Contact -->
       <section class="flex-col" id="contact-sect">
         <h3>Contact</h3>
+      </section>
 
-        <!-- Follow Us -->
-        <div class="flex-col background-img" id="follow-cont">
-          <h4>Follow Us!</h4>
-          <p>
-            Did you know you can find us on social media too? We'd love to hear from you! 
-          </p>
-          <small>
-            Please consider giving us a like and follow! After all, sharing is
-            caring &#128154
-          </small>
-          <ul class="flex-row" id="social-media">
-            <li class="flex-row background-img social-icon" id="facebook"><a class="social-link" href="https://www.facebook.com/NIReptileSanctuary">Facebook</a></li>
-            <li class="flex-row background-img social-icon" id="instagram"><a class="social-link" href="https://www.instagram.com/niexoticsanctuary">Instagram</a></li>
-            <li class="flex-row background-img social-icon" id="tiktok"><a class="social-link" href="https://www.tiktok.com/niexoticsanctuary">Tiktok</a></li>
-            <li class="flex-row background-img social-icon" id="linkedin"><a class="social-link" href="https://www.linkedin.com/in/northern-ireland-exotics-sanctuary-138704232">LinkedIn</a></li>
-          </ul>
-        </div>
+      <!-- Follow Us -->
+      <section class="flex-col background-img" id="follow-sect">
+        <h4>Follow Us!</h4>
+        <p>
+          Did you know you can find us on social media too? We'd love to hear from you! 
+        </p>
+        <small>
+          Please consider giving us a like and follow! After all, sharing is
+          caring &#128154
+        </small>
+        <ul class="flex-row" id="social-media">
+          <li class="flex-row background-img social-icon" id="facebook"><a class="social-link" href="https://www.facebook.com/NIReptileSanctuary">Facebook</a></li>
+          <li class="flex-row background-img social-icon" id="instagram"><a class="social-link" href="https://www.instagram.com/niexoticsanctuary">Instagram</a></li>
+          <li class="flex-row background-img social-icon" id="tiktok"><a class="social-link" href="https://www.tiktok.com/niexoticsanctuary">Tiktok</a></li>
+          <li class="flex-row background-img social-icon" id="linkedin"><a class="social-link" href="https://www.linkedin.com/in/northern-ireland-exotics-sanctuary-138704232">LinkedIn</a></li>
+        </ul>
       </section>
     </main>
 

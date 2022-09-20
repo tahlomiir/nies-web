@@ -2,20 +2,30 @@
 
 /* -------- Universal Style -------- */
 /* Body */
-@import "./components/global/body.css";
+@import "./global/universal/body.css";
 
 /* Fonts */
-@import "./components/global/fonts.css";
-
-/* Images */
-@import "./components/global/images.css";
+@import "./global/universal/fonts.css";
 
 /* ----------- Components ---------- */
-/* Grids */
-@import "./components/global/grids.css";
+/* Images */
+@import "./global/components/images.css";
 
+/* Grids */
+@import "./global/components/grids.css";
+
+/* Buttons */
+@import "./global/components/buttons.css";
+
+/* ---------- Page Content ---------- */
 /* Navigation Menu */
-@import "./components/global/navbar.css";
+@import "./global/content/navbar.css";
+
+/* Header */
+@import "./global/content/header.css";
+
+/* Sections */
+@import "./global/content/section.css";
 
 /* Footer */
-@import "./components/global/footer.css";
+@import "./global/content/footer.css";

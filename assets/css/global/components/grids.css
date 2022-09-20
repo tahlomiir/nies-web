@@ -32,16 +32,12 @@
   }
 
   .split-div {
-    padding: 3rem;
     width: 50%;
   }
 }
 
 /* ------- Laptop -------- */
 @media only screen and (min-width: 1024px) {
-  .split-div {
-    padding: 3rem 6rem;
-  }
 }
 
 /* ------- Desktop ------- */
@@ -50,7 +46,4 @@
 
 /* ----- 4k Ultra HD ----- */
 @media only screen and (min-width: 2560px) {
-  .split-div {
-    padding: 3rem;
-  }
 }

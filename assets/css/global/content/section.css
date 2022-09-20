@@ -1,19 +1,6 @@
-/* =============== Image Styles ============== */
-/* ------------- Logos ------------- */
-.logo {
-  height: 3.5rem;
-}
-
-/* ------------ Banners ------------ */
-.banner {
-  width: 100%;
-}
-
-/* Background Images */
-.background-img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+/* ============== Section Styles ============= */
+section {
+  border-bottom: 1px solid #505050;
 }
 
 /* ========= Media Queries ========= */
